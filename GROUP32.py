@@ -323,8 +323,7 @@ def place_order(userId):
 
     if confirm == 'y':
       with open(orders_file, "a") as ordersTxtFile:
-        ordersTxtFile.write(f"{userId},{itemName},{itemWeight},{routeChoice},{pickupLocation},{
-            dropoffLocation},{orderDate},{fragileItem},{hazardousItem},{paymentOption},Pending,{lastID + 1}\n")
+        ordersTxtFile.write(f"{userId},{itemName},{itemWeight},{routeChoice},{pickupLocation},{dropoffLocation},{orderDate},{fragileItem},{hazardousItem},{paymentOption},Pending,{lastID + 1}\n")
       print("Order placed successfully!")
 
       break
