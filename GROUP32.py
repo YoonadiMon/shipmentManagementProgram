@@ -344,8 +344,7 @@ def view_order_history(userId):
   if not userOrders:
     print("No orders found for your User ID.")
   else:
-    print(f"{'Order ID':<10} {'Item description':<20} {'Weight (kg)':<15} {'Origin':<15} {
-        'Destination':<15} {'Order Date':<15} {'Payment Method':<20}")
+    print(f"{'Order ID':<10} {'Item description':<20} {'Weight (kg)':<15} {'Origin':<15} {'Destination':<15} {'Order Date':<15} {'Payment Method':<20}")
     print("=" * 130)
     for order_line in userOrders:
       orderArr = order_line.split(',')
