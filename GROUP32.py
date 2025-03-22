@@ -1,6 +1,3 @@
-# GROUP 32
-# TP081506, TP081967, TP081763
-
 from datetime import date, datetime, timedelta
 import random
 
@@ -20,8 +17,8 @@ revenue_file = "revenueTxtFile.txt"
 daily_roundtrips_file = "dailyRoundtripsTxtFile.txt"
 
 # ADMIN INFO
-mainAdminName = "felisha"
-mainAdminPwd = "081763"
+mainAdminName = "adminName"
+mainAdminPwd = "123456"
 
 # TP081506's Task
 
