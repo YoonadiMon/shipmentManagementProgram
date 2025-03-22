@@ -320,10 +320,11 @@ def place_order(userId):
     print(f"Shipping Cost: RM{shipping_cost:.2f}")
 
     confirm = get_valid_input("Confirm order? (y/n): ", ["y", "n"]).strip()
+    currentId = lastID + 1
 
     if confirm == 'y':
       with open(orders_file, "a") as ordersTxtFile:
-        ordersTxtFile.write(f"{userId},{itemName},{itemWeight},{routeChoice},{pickupLocation},{dropoffLocation},{orderDate},{fragileItem},{hazardousItem},{paymentOption},Pending,{lastID + 1}\n")
+        ordersTxtFile.write(userId+itemName+itemWeight+routeChoice+pickupLocation+dropoffLocation+orderDate+fragileItem+hazardousItem+paymentOption+"Pending"+currentId+"\n")
       print("Order placed successfully!")
 
       break
