@@ -63,9 +63,13 @@ This project is a **Shipment Management Program** developed for a group assignme
    - Run the program and create a new account or log in with an existing one.
    - Navigate through the menu to place orders, track shipments, or provide feedback.
 
-2. **For Admins**:
-   - Log in using the admin credentials provided above.
+2. **For Admin**:
+   - Log in using the admin credentials written in the program.
    - Access administrative functionalities to monitor and manage system operations.
+     
+2. **For Driver**:
+   - Log in using the driver credentials given by the admin.
+   - Access driver-related functionalities to carry out shipping operations.
 
 ## Key Functions
 ### User Features
